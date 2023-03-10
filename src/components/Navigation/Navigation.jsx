@@ -14,7 +14,6 @@ export const Navigation = () => {
       {isLoggedIn && (
         <NavLink to="/contacts">Contacts</NavLink>
       )}
-      {isLoggedIn ? <UserMenu /> : <AuthNav />}
     </nav>
   );
 };
