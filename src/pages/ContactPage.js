@@ -12,7 +12,7 @@ export const ContactPage = () => {
     const error = useSelector(selectError);
     console.log('Heloo')
     return (
-  
+  <main>
       <AppStyled>
         <h1>Phonebook</h1>
         <ContactForm />
@@ -20,6 +20,6 @@ export const ContactPage = () => {
         {isLoading && !error && `...Loading`}
         <ContactsList />
       </AppStyled>
-  
+      </main>
     );
   };
