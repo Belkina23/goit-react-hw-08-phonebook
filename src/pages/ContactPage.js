@@ -6,7 +6,7 @@ import { selectIsLoading, selectError } from 'redux/contacts/selectors';
 import { useSelector } from 'react-redux';
 // import { AppStyled } from 'components/App/App.styled';
 
-export const ContactPage = () => {
+const ContactPage = () => {
 
     const isLoading = useSelector(selectIsLoading);
     const error = useSelector(selectError);
@@ -19,7 +19,10 @@ export const ContactPage = () => {
         <Filter />
         {isLoading && !error && `...Loading`}
         <ContactsList />
+
       {/* </AppStyled> */}
       </main>
     );
   };
+
+  export default ContactPage;
