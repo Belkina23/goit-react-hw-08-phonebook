@@ -2,7 +2,7 @@ import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { toast } from 'react-toastify';
 
-axios.defaults.baseURL = 'https://connections-api.herokuapp.com/';
+axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
 
 export const fetchContacts = createAsyncThunk(
   'contacts/fetchAll',
@@ -12,7 +12,7 @@ export const fetchContacts = createAsyncThunk(
       return response.data;
     } catch (error) {
       toast.error('Something was wrong!');
-      return thunkAPI.rejectWithValue(error);
+      return thunkAPI.rejectWithValue(error.emessage);
     }
   }
 );
@@ -26,7 +26,7 @@ export const addContact = createAsyncThunk(
       return response.data;
     } catch (error) {
       toast.error('Something was wrong!');
-      return thunkAPI.rejectWithValue(error);
+      return thunkAPI.rejectWithValue(error.emessage);
     }
   }
 );
@@ -40,7 +40,7 @@ export const deleteContact = createAsyncThunk(
       return response.data;
     } catch (error) {
       toast.error('Something was wrong!');
-      return thunkAPI.rejectWithValue(error);
+      return thunkAPI.rejectWithValue(error.emessage);
     }
   }
 );

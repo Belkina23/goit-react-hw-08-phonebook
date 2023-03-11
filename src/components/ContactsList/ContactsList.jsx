@@ -2,8 +2,8 @@ import { ListOfContact, Container } from './ContactsList.styled';
 import ContactListItem from './ContactItem/ContactItem';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
-import { getFilteredContacts } from 'redux/selectors';
-import {fetchContacts} from '../../redux/operation'
+import { getFilteredContacts } from 'redux/contacts/selectors';
+import {fetchContacts} from '../../redux/contacts/operation'
 
 const ContactsList = () => {
   const filterContact = useSelector(getFilteredContacts);
