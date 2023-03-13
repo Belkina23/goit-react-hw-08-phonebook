@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 
-export const AppStyled = styled.div`
-  
+export const ContactDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +10,7 @@ export const AppStyled = styled.div`
   color: #a5a2a2;
   background-color: white;
   width: 500px;
-  margin: 50px auto;
+  margin: 30px auto;
   border: 2px dashed #a5a2a2;
   border-radius: 4%;
 `;

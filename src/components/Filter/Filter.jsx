@@ -12,7 +12,7 @@ const Filter = () => {
 
   return (
     <SectionFilter>
-      <Label>Filter</Label>
+      <Label>Сontact search</Label>
       <Input type="text" onChange={handleChange} />
     </SectionFilter>
   );

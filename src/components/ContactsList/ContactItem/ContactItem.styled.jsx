@@ -18,6 +18,7 @@ const Button = styled.button`
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   :hover,
   :focus {
