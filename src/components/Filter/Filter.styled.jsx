@@ -14,7 +14,7 @@ const Label = styled.label`
 const Input = styled.input`
   outline: none;
   padding: 5px;
-
+  border: 1px solid #a5a2a2;
 `;
 
 export { SectionFilter, Label, Input }
