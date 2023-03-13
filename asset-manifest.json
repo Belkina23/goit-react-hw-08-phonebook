@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.a7c0b901.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.c04d3395.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.fcf2b7f2.js",
     "static/js/485.4b282d91.chunk.js": "/goit-react-hw-08-phonebook/static/js/485.4b282d91.chunk.js",
     "static/js/525.1ad46bf9.chunk.js": "/goit-react-hw-08-phonebook/static/js/525.1ad46bf9.chunk.js",
     "static/js/617.6f2241eb.chunk.js": "/goit-react-hw-08-phonebook/static/js/617.6f2241eb.chunk.js",
-    "static/js/117.78ee4c96.chunk.js": "/goit-react-hw-08-phonebook/static/js/117.78ee4c96.chunk.js",
+    "static/js/117.45752577.chunk.js": "/goit-react-hw-08-phonebook/static/js/117.45752577.chunk.js",
     "static/js/135.ead15322.chunk.js": "/goit-react-hw-08-phonebook/static/js/135.ead15322.chunk.js",
     "static/media/bgimage.jpg": "/goit-react-hw-08-phonebook/static/media/bgimage.11510eecc2ac4707b6bd.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.a7c0b901.css.map": "/goit-react-hw-08-phonebook/static/css/main.a7c0b901.css.map",
-    "main.c04d3395.js.map": "/goit-react-hw-08-phonebook/static/js/main.c04d3395.js.map",
+    "main.fcf2b7f2.js.map": "/goit-react-hw-08-phonebook/static/js/main.fcf2b7f2.js.map",
     "485.4b282d91.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/485.4b282d91.chunk.js.map",
     "525.1ad46bf9.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/525.1ad46bf9.chunk.js.map",
     "617.6f2241eb.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/617.6f2241eb.chunk.js.map",
-    "117.78ee4c96.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/117.78ee4c96.chunk.js.map",
+    "117.45752577.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/117.45752577.chunk.js.map",
     "135.ead15322.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/135.ead15322.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7c0b901.css",
-    "static/js/main.c04d3395.js"
+    "static/js/main.fcf2b7f2.js"
   ]
 }
