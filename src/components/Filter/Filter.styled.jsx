@@ -10,11 +10,13 @@ const SectionFilter = styled.div`
 
 const Label = styled.label`
   margin: 5px;
+  width: 300px;
 `;
 const Input = styled.input`
   outline: none;
   padding: 5px;
   border: 1px solid #a5a2a2;
+  margin-bottom: 20px;
 `;
 
 export { SectionFilter, Label, Input }
