@@ -6,12 +6,26 @@ export const HomeDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 80px 100px 80px;
   color: #a5a2a2;
   background-color: white;
-  width: 500px;
-  height: 500px;
-  margin: 50px auto;
+  font-size: 12px;
+  width: 73%;
+  padding: 30px;
+  margin: 20px auto;
   border: 2px dashed #a5a2a2;
   border-radius: 4%;
+  @media screen and (min-width: 760px) {
+    padding: 20px 40px 80px 40px;
+    width: 400px;
+    height: 300px;
+    margin: 30px auto;
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 30px auto;
+    width: 500px;
+    height: 500px;
+    padding: 40px 80px 100px 80px;
+  }
 `;

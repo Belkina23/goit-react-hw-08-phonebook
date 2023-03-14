@@ -5,19 +5,27 @@ export const LogintDiv = styled.main`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 40;
-  padding: 40px 80px 100px 80px;
+  margin: 20px auto;
   color: #a5a2a2;
   background-color: white;
+  width: 85%;
+  padding: 10px;
+  border: 2px dashed #a5a2a2;
+  border-radius: 4%;
+  @media screen and (min-width: 451px) {
+    
+  }
+  @media screen and (min-width: 760px) {
   width: 500px;
   height: 500px;
   margin: 30px auto;
-  border: 2px dashed #a5a2a2;
-  border-radius: 4%;
+  padding: 40px 80px 100px 80px;
+  }
 `;
 
 export const StyledFaReact = styled(FaReact)`
-  font-size: 10rem;
+  font-size: 4rem;
+  margin-bottom: 10px;
   animation: spin 10s infinite linear;
 
   @keyframes spin {
@@ -27,5 +35,13 @@ export const StyledFaReact = styled(FaReact)`
     100% {
       transform: rotate(360deg);
     }
+  }
+  @media screen and (min-width: 451px) {
+    font-size: 6rem;
+  }
+  @media screen and (min-width: 760px) {
+    font-size: 10rem;
+  }
+  @media screen and (min-width: 1200px) {
   }
 `;

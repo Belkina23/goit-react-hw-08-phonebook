@@ -8,9 +8,8 @@ const ContactItem = styled.li`
 `;
 
 const Button = styled.button`
-  width: 60px;
-  height: 30px;
-  font-size: 14px;
+  padding: 5px;
+  font-size: 12px;
   text-align: center;
   color: #fff;
   background-color: #a5a2a2;
@@ -24,6 +23,12 @@ const Button = styled.button`
   :focus {
     background-color: #918d8d;
   }
+
+  @media screen and (min-width: 451px) {
+  width: 60px;
+  font-size: 14px;
+}
+
 `;
 
 export { ContactItem, Button };

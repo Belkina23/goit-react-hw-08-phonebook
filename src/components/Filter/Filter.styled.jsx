@@ -5,12 +5,18 @@ const SectionFilter = styled.div`
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 17px;
+  @media screen and (min-width: 760px) {
+    font-size: 20px;
+  }
 `;
 
 const Label = styled.label`
   margin: 5px;
-  width: 300px;
+ width: 210px;
+ @media screen and (min-width: 451px) {
+    width: 330px;
+  }
 `;
 const Input = styled.input`
   outline: none;
@@ -19,4 +25,4 @@ const Input = styled.input`
   margin-bottom: 20px;
 `;
 
-export { SectionFilter, Label, Input }
+export { SectionFilter, Label, Input };

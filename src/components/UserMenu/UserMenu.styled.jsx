@@ -2,21 +2,35 @@ import styled from '@emotion/styled';
 
 export const UserDiv = styled.div`
   display: flex;
-  gap: 20px;
+  gap: 5px;
   align-items: center;
+  @media screen and (min-width: 760px) {
+    gap: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    gap: 20px;
+  }
 `;
 
 export const UserP = styled.p`
   color: #a5a2a2;
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 600;
+
+  @media screen and (min-width: 760px) {
+    font-size: 13px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 17px;
+  }
 `;
 
 export const ButtonLogaut = styled.button`
-  width: 100px;
-  height: 30px;
-  padding-top: 2px;
-  font-size: 17px;
+  font-size: 12px;
+  width: 60px;
+  padding: 5px;
   text-align: center;
   color: #fff;
   background-color: #a5a2a2;
@@ -29,5 +43,17 @@ export const ButtonLogaut = styled.button`
   :hover,
   :focus {
     background-color: #918d8d;
+  }
+
+  @media screen and (min-width: 760px) {
+    width: 70px;
+    padding: 7px;
+
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 100px;
+  height: 33px;
+  font-size: 17px;
   }
 `;

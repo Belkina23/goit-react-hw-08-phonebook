@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url(./img/bgimage.jpg);
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 80%;
   background-position: 50% 25%;
 }
 
@@ -22,6 +22,6 @@ p {
   margin: 0;
 }
 
-h2 {
+h1, h2 {
   margin: 0;
 }

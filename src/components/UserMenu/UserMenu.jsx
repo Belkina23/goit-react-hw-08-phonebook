@@ -9,7 +9,7 @@ export const UserMenu = () => {
 
   return (
     <UserDiv>
-      <UserP>Welcome, {user.name}</UserP>
+      <UserP>Hi, {user.name}</UserP>
       <ButtonLogaut type="button" onClick={() => dispatch(logOut())}>
         Logout
       </ButtonLogaut>
